@@ -1,5 +1,5 @@
-## GCD_Project
-# Coursera Getting and Cleaning Data Course Project
+# GCD_Project
+## Coursera Getting and Cleaning Data Course Project
 
 The R script `run_analysis.r` tidies up the Samsung UCI HAR data set. It assumes your working
 directory ends in `/UCI HAR Dataset`. For a description of the original data set and the experiment 

@@ -1,5 +1,5 @@
-## Code Book
-# For the Coursera Getting and Cleaning Data Course Project
+# Code Book
+## For the Coursera Getting and Cleaning Data Course Project
 
 The following variables exist in the data set `Data_tidy.txt`:
 
@@ -9,6 +9,8 @@ The following variables exist in the data set `Data_tidy.txt`:
 			 
 The labels for the quantitative variables are explained in what follows. For a detailed description of what
 each measurement corresponds to, see `features_info.txt` in the original Samsung UCI HAR data set.
+Units for the measurements are not provided for the original data set, the documentation only says that 
+features are normalized and bounded within the interval `[-1,1]`.
 
 * `mean...`: Arithmetic means of the origninal measurements, additionally averaged for each subject and activity.
 * `std...`: Standard deviations of the original measurements, additionally averaged for each subject and activity.
@@ -17,4 +19,4 @@ each measurement corresponds to, see `features_info.txt` in the original Samsung
 * `...Body/Gravity...`: Is this the component of acceleration due to body movement or the one due to gravity?
 * `...Acc/Gyro...`: Does the measurement stem from the device's accelerometer or gyroscope (for angular velocity)?
 * `...Jerk...`: The time derivative of the original acceleration or angular velocity measurement.
-* `...Mag`: Variable is the magnitude (euclidean norm) of the measurement vector, rather than an its X,Y, or Z component.
+* `...Mag`: Variable is the magnitude (euclidean norm) of the measurement vector, rather than its X,Y, or Z component.
